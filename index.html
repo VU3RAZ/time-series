@@ -17,7 +17,7 @@
     gtag('js', new Date());
     gtag('config', 'UA-49548145-2');
   </script>
-  <meta property="og:title" content="Time Series Forecasting with TensorFlow.js - Hong Jing (Jingles)"/>
+  <meta property="og:title" content="Time Series Forecasting with TensorFlow.js - Forked from Hong Jing (Jingles)"/>
   <meta property="og:image" content="https://jinglescode.github.io/assets/img/posts/time-series-00.jpg"/>
   <meta property="og:description" content="Pull stock prices from online API and perform predictions using Recurrent Neural Network & Long Short Term Memory (LSTM) with TensorFlow.js framework"/>
   <meta property="og:url" content="https://jinglescode.github.io/time-series-forecasting-tensorflowjs" />
@@ -125,7 +125,7 @@
           <div class="col m4">
             <div class="input-field col s12">
               <label for="input_apikey">Alpha Vantage API Key</label>
-              <input type="text" id="input_apikey" placeholder="Input your API key or use 'demo'" value="demo">
+              <input type="text" id="input_apikey" placeholder="Input your API key or use 'demo'" value="36W72KVQ735V3BVB">
               <small class="form-text text-muted">You can claim your API key from <a href="https://www.alphavantage.co/support/#api-key" target="_blank">alphavantage.co</a></small>
             </div>
           </div>
@@ -202,7 +202,7 @@
           <div class="col s6">
             <div class="input-field col s12">
               <label for="input_windowsize">Window Size</label>
-              <input type="number" id="input_windowsize" placeholder="a number" value="20">
+              <input type="number" id="input_windowsize" placeholder="a number" value="12">
               <small class="form-text text-muted">This is the "time window" for SMA</small>
             </div>
           </div>
@@ -288,7 +288,7 @@
             <div class="col s6">
               <div class="input-field col s12">
                 <label for="input_epochs">Epochs</label>
-                <input type="number" id="input_epochs" placeholder="a number" value="10">
+                <input type="number" id="input_epochs" placeholder="a number" value="13">
               </div>
             </div>
           </div>
@@ -303,7 +303,7 @@
             <div class="col s6">
               <div class="input-field col s12">
                 <label for="input_hiddenlayers">Hidden LSTM Layers</label>
-                <input type="number" id="input_hiddenlayers" placeholder="a number'" value="4">
+                <input type="number" id="input_hiddenlayers" placeholder="a number'" value="5">
                 <small class="form-text text-muted">Number of LSTM layers</small>
               </div>
             </div>
